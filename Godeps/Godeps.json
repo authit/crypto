@@ -6,19 +6,14 @@
 	],
 	"Deps": [
 		{
-			"ImportPath": "code.google.com/p/go.crypto/openpgp",
-			"Comment": "null-236",
-			"Rev": "69e2a90ed92d03812364aeb947b7068dc42e561e"
-		},
-		{
 			"ImportPath": "github.com/BurntSushi/toml",
 			"Comment": "v0.1.0-21-g056c9bc",
 			"Rev": "056c9bc7be7190eaa7715723883caffa5f8fa3e4"
 		},
 		{
 			"ImportPath": "github.com/Sirupsen/logrus",
-			"Comment": "v0.8.6-9-g27b713c",
-			"Rev": "27b713cfd2742876645e3692a488c5e3fd65361d"
+			"Comment": "v0.8.6-13-g84b968c",
+			"Rev": "84b968cb9f82d727044973f8255489bbe15e9948"
 		},
 		{
 			"ImportPath": "github.com/codegangsta/negroni",
@@ -63,7 +58,7 @@
 		},
 		{
 			"ImportPath": "github.com/shurcooL/sanitized_anchor_name",
-			"Rev": "244f5ac324cb97e1987ef901a0081a77bfd8e845"
+			"Rev": "11a20b799bf22a02808c862eb6ca09f7fb38f84a"
 		},
 		{
 			"ImportPath": "github.com/spf13/cast",
@@ -71,7 +66,7 @@
 		},
 		{
 			"ImportPath": "github.com/spf13/cobra",
-			"Rev": "1ba88c48dd888c212df39b928bf6bb05c0efe83a"
+			"Rev": "e4993076d845b7127c760e2e57a4984c166c6c05"
 		},
 		{
 			"ImportPath": "github.com/spf13/jwalterweatherman",

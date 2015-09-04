@@ -13,7 +13,7 @@ import (
 func NewPair(name, comment, email string) (*openpgp.Entity, error) {
 	entity, err := openpgp.NewEntity(name, comment, email, nil)
 	if err != nil {
-		log.PrintError("telem.crypto.NewPair", err)
+		log.PrintError("authit.crypto.NewPair", err)
 		return nil, err
 	}
 
@@ -21,7 +21,7 @@ func NewPair(name, comment, email string) (*openpgp.Entity, error) {
 	for _, id := range entity.Identities {
 		err := id.SelfSignature.SignUserId(id.UserId.Id, entity.PrimaryKey, entity.PrivateKey, nil)
 		if err != nil {
-			log.PrintError("telem.crypto.NewPair", err)
+			log.PrintError("authit.crypto.NewPair", err)
 			return nil, err
 		}
 	}
@@ -33,7 +33,7 @@ func Public(entity *openpgp.Entity) (string, error) {
 	writeBuffer := bufio.NewWriter(&output)
 	public, err := armor.Encode(writeBuffer, openpgp.PublicKeyType, nil)
 	if err != nil {
-		log.PrintError("telem.crypto.Public", err)
+		log.PrintError("authit.crypto.Public", err)
 		return "", err
 	}
 
@@ -48,7 +48,7 @@ func Private(entity *openpgp.Entity) (string, error) {
 	writeBuffer := bufio.NewWriter(&output)
 	private, err := armor.Encode(writeBuffer, openpgp.PrivateKeyType, nil)
 	if err != nil {
-		log.PrintError("telem.crypto.Private", err)
+		log.PrintError("authit.crypto.Private", err)
 		return "", err
 	}
 
