@@ -6,14 +6,33 @@
 	],
 	"Deps": [
 		{
+			"ImportPath": "code.google.com/p/go.crypto/openpgp",
+			"Comment": "null-236",
+			"Rev": "69e2a90ed92d03812364aeb947b7068dc42e561e"
+		},
+		{
 			"ImportPath": "github.com/BurntSushi/toml",
 			"Comment": "v0.1.0-21-g056c9bc",
 			"Rev": "056c9bc7be7190eaa7715723883caffa5f8fa3e4"
 		},
 		{
+			"ImportPath": "github.com/Sirupsen/logrus",
+			"Comment": "v0.8.6-9-g27b713c",
+			"Rev": "27b713cfd2742876645e3692a488c5e3fd65361d"
+		},
+		{
+			"ImportPath": "github.com/codegangsta/negroni",
+			"Comment": "v0.1-70-gc7477ad",
+			"Rev": "c7477ad8e330bef55bf1ebe300cf8aa67c492d1b"
+		},
+		{
 			"ImportPath": "github.com/cpuguy83/go-md2man/md2man",
 			"Comment": "v1.0.3-2-g71acacd",
 			"Rev": "71acacd42f85e5e82f70a55327789582a5200a90"
+		},
+		{
+			"ImportPath": "github.com/cryptix/go/logging",
+			"Rev": "7c745070561e27d00a07785449717e355191315f"
 		},
 		{
 			"ImportPath": "github.com/inconshreveable/mousetrap",
@@ -65,6 +84,22 @@
 		{
 			"ImportPath": "github.com/spf13/viper",
 			"Rev": "3c0ff861e3d9906ecc4ebfb7e41557d44d3e277b"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/cast5",
+			"Rev": "aedad9a179ec1ea11b7064c57cbc6dc30d7724ec"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/openpgp",
+			"Rev": "aedad9a179ec1ea11b7064c57cbc6dc30d7724ec"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/ssh/terminal",
+			"Rev": "aedad9a179ec1ea11b7064c57cbc6dc30d7724ec"
+		},
+		{
+			"ImportPath": "gopkg.in/errgo.v1",
+			"Rev": "15098963088579c1cd9eb1a7da285831e548390b"
 		},
 		{
 			"ImportPath": "gopkg.in/yaml.v2",
